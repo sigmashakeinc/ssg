@@ -1,0 +1,11 @@
+{
+  "name": "@sigmashake/ssg",
+  "version": "0.12.13",
+  "description": "Issue tracker for @sigmashake/ssg binary distributions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigmashakeinc/ssg.git"
+  },
+  "author": "SigmaShake Inc.",
+  "private": true
+}
