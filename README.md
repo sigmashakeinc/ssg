@@ -7,7 +7,7 @@
 <h1 align="center">@sigmashake/ssg</h1>
 
 <p align="center">
-  <strong>AI Agent Guardrails.</strong> Sub-2ms governance for every AI agent. Local-first. Zero tokens.
+  <strong>AI Agent Guardrails.</strong> Sub-2ms governance for every AI agent. Local-first.
 </p>
 
 <p align="center">
@@ -31,9 +31,9 @@
 
 ---
 
-## What is ssg?
+## What is SSG?
 
-`ssg` is SigmaShake's AI agent governance CLI. It evaluates every tool call your AI agent is about to make against a set of local rules — blocking dangerous operations, asking for approval on risky ones, and recording everything to a queryable audit log. It runs locally in sub-2 milliseconds, spends zero AI tokens on governance, and works with every major AI client: **Claude Code**, **Cursor**, **GitHub Copilot**, **Codex**, **Gemini**, **Antigravity**, and **Pi**.
+SSG is SigmaShake's AI agent governance CLI. It evaluates every tool call your AI agent is about to make against a set of local rules — blocking dangerous operations, asking for approval on risky ones, and recording everything to a queryable audit log. It runs locally in sub-2 milliseconds and works with every major AI client: **Claude Code**, **Cursor**, **GitHub Copilot**, **Codex**, **Gemini**, **Antigravity**, and **Pi**.
 
 ## See it in action
 
@@ -41,19 +41,19 @@
 
 A local dashboard at `http://localhost:5599` shows pending approvals, blocked commands, and a live audit stream.
 
-![ssg approval dashboard — rule evaluation in action](https://docs.sigmashake.com/img/demos/eval-demo.gif)
+![SSG approval dashboard — rule evaluation in action](https://docs.sigmashake.com/img/demos/eval-demo.gif)
 
 ### 🌍 Community rules hub
 
 Pull curated rulesets from [`hub.sigmashake.com`](https://hub.sigmashake.com) — covering bash, secrets, SQL, Docker, Kubernetes, Python, React, Terraform, and more.
 
-![ssg hub — searching and installing rulesets](https://docs.sigmashake.com/img/demos/hub-demo.gif)
+![SSG hub — searching and installing rulesets](https://docs.sigmashake.com/img/demos/hub-demo.gif)
 
 > 🎥 [Watch the full dashboard tour](https://docs.sigmashake.com/img/demos/dashboard_demo.webm) (WebM, 208 KB) · or read the [dashboard docs](https://docs.sigmashake.com/dashboard).
 
-## Why teams pick ssg
+## Why teams pick SSG
 
-- 🏠 **Local-first evaluation** — no outbound AI calls; zero tokens spent on governance
+- 🏠 **Local-first evaluation** — no outbound AI calls for governance
 - ⚡ **Sub-2ms rule eval** — faster than the network call it gates
 - 🧩 **Works everywhere** — Claude Code, Cursor, Copilot, Codex, Gemini, Antigravity, Pi
 - 🔍 **Queryable audit trail** — every decision stored locally; searchable from the CLI
@@ -93,7 +93,7 @@ Evaluate a single tool call from the shell:
 echo '{"tool":"Bash","input":{"command":"rm -rf /"}}' | ssg eval
 ```
 
-Wire `ssg` into just one client:
+Wire SSG into just one client:
 
 ```bash
 ssg init --client=claude-code    # or: cursor | copilot | codex | gemini | antigravity | pi
@@ -157,7 +157,7 @@ Local rule evaluation, local dashboard usage, and local audit inspection work **
 
 ## License
 
-Proprietary. The `ssg` binary is free to use for local governance, auditing, and dashboard workflows. **Source code is not distributed** — this repository publishes release artifacts only. See [`LICENSE`](./LICENSE) for the full terms.
+Proprietary. The SSG binary is free to use for local governance, auditing, and dashboard workflows. **Source code is not distributed** — this repository publishes release artifacts only. See [`LICENSE`](./LICENSE) for the full terms.
 
 <p align="center">
   <sub>© Sigma Shake. All rights reserved. · <a href="https://sigmashake.com">sigmashake.com</a> · <a href="https://docs.sigmashake.com/policies/terms-of-use">Terms</a> · <a href="https://docs.sigmashake.com/policies/privacy-policy">Privacy</a></sub>
