@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://sigmashake.com">
-    <img src="https://docs.sigmashake.com/img/og-card.png" alt="SigmaShake SSG — Governance rules for AI agents" width="720"/>
+    <img src="https://docs.sigmashake.com/img/hero.png" alt="SigmaShake — AI Agent Guardrails" width="900"/>
   </a>
 </p>
 
 <h1 align="center">@sigmashake/ssg</h1>
 
 <p align="center">
-  <em>Sub-2ms governance for every AI agent. Local-first. Zero tokens.</em>
+  <strong>AI Agent Guardrails.</strong> Sub-2ms governance for every AI agent. Local-first. Zero tokens.
 </p>
 
 <p align="center">
